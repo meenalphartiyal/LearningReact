@@ -1,0 +1,31 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "This is the first project",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meenalphartiyal/LearningReact.git#main"
+  },
+  "keywords": [],
+  "author": "Meenal Phartiyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meenalphartiyal/LearningReact/issues"
+  },
+  "homepage": "https://github.com/meenalphartiyal/LearningReact/tree/main#readme",
+  "devDependencies": {
+    "parcel": "^2.13.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserlist": [
+    "last 10 version"
+  ]
+}
