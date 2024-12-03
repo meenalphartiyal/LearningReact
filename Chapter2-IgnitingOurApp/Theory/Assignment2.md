@@ -19,21 +19,21 @@ own words.
 - What is `node_modules` ? Is it a good idea to push  that on git?
 - What is the `dist` folder?
 - What is `browserlists`
-Read about dif bundlers: vite, webpack, parcel
+- Read about dif bundlers: vite, webpack, parcel
 - Read about: ^ - caret and ~ - tilda
 - Read about Script types in html (MDN Docs)
 
 ## Project Assignment:
 - In your existing project
-    - intialize `npm` into your repo
-    - install `react` and `react-dom`
-    - remove CDN links of react
-    - install parcel
-    - ignite your app with parcel
-    - add scripts for “start” and “build” with parcel commands
-    - add `.gitignore` file
-    - add `browserlists`
-    - build a production version of your code using `parcel build`
+- intialize `npm` into your repo
+- install `react` and `react-dom`
+- remove CDN links of react
+- install parcel
+- ignite your app with parcel
+- add scripts for “start” and “build” with parcel commands
+- add `.gitignore` file
+- add `browserlists`
+- build a production version of your code using `parcel build`
 
 ### References
 - Creating your own `create-react-app` : https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658
