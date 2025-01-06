@@ -14,12 +14,11 @@ import "./style.css";
       - Profile (Sign In)
   - Search Bar
 - Body
-  - Restaurant Container
-    - Restaurant cards
-     - Restaurant Image
-     - Restaurant Name
-     - Restaurant Cuisine
-     - Restaurant Rating
+  - Restaurant cards
+    - Restaurant Image
+    - Restaurant Name
+    - Restaurant Cuisine
+    - Restaurant Rating
 - Footer
   - Copyright
   - Address/Contact
@@ -983,7 +982,8 @@ const RestaurantCard = (prop) => {
     </div>
   );
 };
-const RestaurantContainer = () => {
+
+const Body = () => {
   return (
     <div className="res-container">
       {
@@ -991,14 +991,6 @@ const RestaurantContainer = () => {
           <RestaurantCard resObj={res} key={res.info.id}/>
         ))
       }
-    </div>
-  );
-};
-
-const Body = () => {
-  return (
-    <div>
-      <RestaurantContainer />
     </div>
   );
 };
