@@ -19,9 +19,6 @@ export const Header = () => {
           </ul>
         </div>
       </div>
-      <div className="srch">
-        <input type="text" placeholder="Search" />
-      </div>
     </div>
   );
 };
