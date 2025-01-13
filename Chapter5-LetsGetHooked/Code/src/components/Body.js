@@ -6,13 +6,13 @@ const Body = () => {
   const [searchItem, setSearchItem] = useState();
   const [filteredData, setFilteredData] = useState(resList)
   
-  const handleSearchItem = (event) => {
-    setSearchItem(event.target.value)
-  }
-
   const handleSearch = () => {
     const result = resList.filter((res) => res.info.name.toLowerCase() === searchItem.toLowerCase());
     setFilteredData(result)
+  }
+  
+  const handleSearchItem = (event) => {
+    setSearchItem(event.target.value)
   }
 
   return (
