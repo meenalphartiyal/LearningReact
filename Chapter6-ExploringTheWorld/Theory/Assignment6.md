@@ -1,4 +1,4 @@
-# Chapter 05 - Let's Get Hooked
+# Chapter 06 - Exploring the World
 ## Assignment
 - What is a Microservice?
 - What is Monolith architecture?

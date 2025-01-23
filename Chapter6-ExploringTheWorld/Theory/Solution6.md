@@ -1,4 +1,4 @@
-# Chapter 03 - Laying the Foundation
+# Chapter 06 - Exploring The World
 ## Q1: What is a Microservice?
 Ans: A Microservice is a software architecture style where an application is built as a collection of small, independent services. Each service is responsible for a specific piece of functionality and communicates with other services. Breaking things down into smaller services makes it easy to handle everything efficiently.
 
