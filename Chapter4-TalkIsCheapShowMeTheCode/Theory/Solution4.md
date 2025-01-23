@@ -1,4 +1,4 @@
-# Chapter 03 - Laying the Foundation
+# Chapter 04 - Talk is cheap, show me the code!
 ## Q1: Is JSX mandatory for React?
 Ans: No JSX is not mandatory for React. JSX is a JavaScript syntax which makes writing react easier to create react elements. It is not a part of react. We can write react without JSX also but it makes react easier. JSX is HTML-like syntax. However, React can work perfectly fine without JSX.
 
