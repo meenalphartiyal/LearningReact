@@ -1,4 +1,4 @@
-# Chapter 03 - Laying the Foundation
+# Chapter 05 - Let's Get Hooked
 ## Q1: What is the difference between Named Export, Default export and * as export?
 Ans: **Named Export**: Allows you to export multiple named variables, functions, or classes from a module.
 ```
