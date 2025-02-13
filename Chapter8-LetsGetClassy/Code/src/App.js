@@ -6,6 +6,7 @@ import About from './components/About.js';
 import Contact from './components/Contact.js';
 import Error from "./components/Error.js";
 import RestaurantMenu from "./components/RestaurantMenu.js";
+import Login from './components/Login.js';
 import {
   createBrowserRouter,
   Outlet,
@@ -44,6 +45,11 @@ const appRouter = createBrowserRouter([
         element: <RestaurantMenu />
       },
     ],
+    errorElement: <Error />,
+  },
+  {
+    path: '/login',
+    element: <Login />,
     errorElement: <Error />,
   },
 ]);

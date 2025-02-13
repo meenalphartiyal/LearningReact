@@ -4,19 +4,6 @@ import cart from "../../asset/cart.png";
 import { Link } from "react-router";
 
 export const Header = () => {
-  const [btn, setBtn] = useState("Login");
-  const toggleBtn = () => {
-    if(btn === 'Login')
-      setBtn("Logout");
-    else
-      setBtn("Login");
-  }
-  // useEffect(() => {
-  //   console.log("useEffect");
-  // }, []);
-
-  // console.log("Header Component");
-
   return (
     <div className="hdr">
       <div className="nav">
@@ -29,10 +16,8 @@ export const Header = () => {
           <ul>
             <li><Link to='/about'>About Us</Link></li>
             <li><Link to='/contact'>Contact Us</Link></li>
-            <li>
-              <img src={cart} alt="cart" />
-            </li>
-            <li><button type="button" className="login-btn" onClick={toggleBtn}>{btn}</button></li>
+            <li><Link to='/login'>Login</Link></li>
+            <li><img src={cart} alt="cart" /></li>
           </ul>
         </div>
       </div>

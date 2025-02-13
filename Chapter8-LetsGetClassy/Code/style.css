@@ -60,6 +60,11 @@ body, html {
 .nav-items ul li{
   padding: 0 10px;
   font-size: 18px;
+  color: white;
+}
+.nav-items ul li a{
+  text-decoration: none;
+  color: white;
 }
 .nav-items ul li img{
   width: 30px;
@@ -274,34 +279,57 @@ body, html {
   cursor: pointer;
   font-weight: bold;
 }
-.about{
-  padding: 20px;
+.login{
+  background-color: #2d3748;
+  border-radius: 30px;
+  color: white;
+  margin: 100px auto;
+  padding: 10px 40px;
+  width: 430px;
+  height: 500px;
   display: flex;
   flex-direction: column;
 }
-.user-box{
+.login h1{
+  font-size: 40px;
+}
+.login Form{
   display: flex;
   flex-direction: column;
 }
-.multiple-states, .user-data{
+.field{
   margin-bottom: 20px;
-  border: 1px solid black;
+}
+.login label{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.login .input{
+  font-size: 16px;
   padding: 10px;
-}
-.multiple-states{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 400px;
-  padding-bottom: 20px;
-}
-.multiple-states div{
+  border-radius: 8px;
   margin-bottom: 10px;
+  width: 400px;
+  outline: none;
+  border: 2px solid #a0aec0;
+  background-color: #4a5568;
+  color: white;
+  cursor:text;
 }
-.multiple-states button{
-  margin-right: 15px;
+.login button{
+  width: 100px;
+  color: #2d3748;
+  background-color: white;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
 }
-.user-data{
-  width: 50%;
-  border: 1px solid black;
+.login .error{
+  color: red;
+  /* margin-bottom: 20px; */
 }
