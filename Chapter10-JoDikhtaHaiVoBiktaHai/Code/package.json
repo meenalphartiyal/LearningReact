@@ -1,7 +1,7 @@
 {
-  "name": "chapter9",
+  "name": "chapter10",
   "version": "1.0.0",
-  "description": "This is Chapter 9 exercise",
+  "description": "This is Chapter 10 exercise",
   "main": "App.js",
   "scripts": {
     "start": "parcel index.html",
@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/meenalphartiyal/LearningReact#readme",
   "dependencies": {
+    "@tailwindcss/postcss": "^4.0.7",
     "formik": "^2.4.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.1.3",
+    "tailwindcss": "^4.0.7",
     "yup": "^1.6.1"
   },
   "devDependencies": {
