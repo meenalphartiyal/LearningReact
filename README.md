@@ -20,3 +20,12 @@ This repository documents my journey of learning React, showcasing the progress 
 - Footer
   - Copyright
   - Address/Contact
+
+## Redux Toolkit
+  - install @reduxjs/toolkit
+  - create a store
+  - connect our store to our application
+  - create cart slice
+  - dispatch an action
+  - read data using selector
+  
