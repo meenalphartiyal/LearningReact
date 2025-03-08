@@ -28,4 +28,14 @@ This repository documents my journey of learning React, showcasing the progress 
   - create cart slice
   - dispatch an action
   - read data using selector
+
+## Testing
+Different types of testing 
+- Manual Testing:  
+- Writing the test cases 
+  - **Unit Testing**: Testing a single react component in isolation. 
+  - **Integration Testing**: Testing the integration of components.
+  - **End to End Testing (e2e testing)**: Simulating what a user will do in the application. It required different types of tools like ***Cypress***, ***Puppeteer***, and ***Selenium***. These are all tools used for browser automation and testing. 
+
+As a developer we are concerned majorly about the first two tesing, Unit Testing and Integration Testing.
   
